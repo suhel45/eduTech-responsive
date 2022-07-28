@@ -1,0 +1,38 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    text-align: center;
+}
+.registration-card{
+    height: 40vh;
+}
+.registration-button{
+    z-index: 3;
+    background-color:#FFFFFF;
+}
+.compnies-img img{
+    width:120px;
+    height: 33px;
+}
+@media only screen and (max-width:576px){
+    .test{
+        width: 100%;
+        border: 1px solid red;
+
+    }
+    .company{
+        display:none;
+    }
+     
+}
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .company{
+        display: none;
+    }
+    
+}
+ 
+ 
