@@ -3,6 +3,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
 .btn{
     text-align: center;
 }
@@ -26,7 +30,14 @@ body{
     .company{
         display:none;
     }
-     
+    .card-horizontal {
+        flex-direction: column;
+        flex: 1 1 auto;
+    }  
+    .course-details-img{
+        width: 325px;
+       
+    }
 }
 @media only screen and (min-width:577px) and (max-width:992px) {
     .company{
