@@ -233,6 +233,31 @@
             </div>
     </section>
     <!-- fourth section end  -->
+    <!-- modal section start -->
+
+      <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title" id="exampleModalLabel">Registration form</h5> </span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="">Your Name</label> <br>
+        <input class="" type="text"> <br>
+        <label for="">Your Eamil</label> <br>
+      <input class="" type="email"> <br>
+      <label for="">New Password</label> <br>
+       <input class="" type="password"> <br>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <!-- modal section end -->
     <!-- 5th Registration section start  -->
     <section class="container mt-5 d-flex justify-content-center">
       <div class="card text-white bg-primary mb-3 registration-card" style="max-width: 100%;">
@@ -241,7 +266,7 @@
           <p class="card-text">It is a long established fact that a reader will be distracted by the
             readable content of a page when looking at its layout</p>
             <div class="col-md-12 text-center">
-              <button type="button" class="btn btn-light text-primary registration-button">Registration</button>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-light text-primary registration-button">Registration</button>
             </div>
         </div>
       </div>
